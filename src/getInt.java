@@ -1,4 +1,4 @@
-public static int getInt(Scanner scanner, String prompt) {
+public static int getInt(Scanner pipe, String prompt) {
         int retInt;
         while (true) {
         try {
