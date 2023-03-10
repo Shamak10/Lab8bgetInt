@@ -7,7 +7,6 @@ public static int getInt(Scanner pipe, String prompt) {
         retInt = Integer.parseInt(input);
         break;
         } catch (NumberFormatException e) {
-        // Input was not a valid integer, so try again
         System.out.println("Please enter a valid integer.");
         }
         }
